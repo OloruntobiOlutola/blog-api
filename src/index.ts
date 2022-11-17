@@ -1,8 +1,5 @@
 import express, { Express, Request, Response } from "express";
-import dotenv from "dotenv";
 import { User } from "./interface/user";
-
-dotenv.config({ path: "./config.env" });
 
 const app: Express = express();
 
